@@ -1,0 +1,341 @@
+@import url(./nullstyle.css);
+@import url("https://fonts.cdnfonts.com/css/gilam");
+@import url("https://fonts.cdnfonts.com/css/circe");
+body {
+  background: #171717;
+}
+.wrapper {
+  width: 1920px;
+}
+.container {
+  max-width: 1460px;
+  margin-left: 230px;
+}
+.header {
+  padding-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  margin-bottom: 128px;
+}
+.header-logo-img {
+}
+
+.header-button {
+  width: 218px;
+  height: 50px;
+  padding: 10px 25px 10px 49px;
+  border: #e4b564 solid 1px;
+  background: url(/IMG/Vector.png) no-repeat 25px 17px;
+}
+.header-button-text a {
+  text-align: end;
+  display: block;
+  color: #e4b564;
+  width: 144px;
+  height: 30px;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main {
+  color: #fff;
+}
+.main-first {
+}
+.main-first-title {
+  font-family: "Gilam";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 28px;
+
+  text-align: left;
+  margin-bottom: 41px;
+}
+.main-first-text {
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  width: 1182px;
+  margin-bottom: 41px;
+}
+.main-first-blocks {
+  display: grid;
+  text-align: center;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  grid-template-columns: repeat(6, 218px);
+  grid-template-rows: repeat(2, 468px);
+  grid-column-gap: 30px;
+
+  grid-row-gap: 27px;
+  margin-bottom: 161px;
+}
+.main-first-blocks-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / span 2;
+  background: #634f2c;
+}
+.main-first-blocks-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 44px;
+
+  grid-column: 3 / span 2;
+  background: #b4a385;
+}
+.main-first-blocks-item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column: 5 / span 2;
+  background: #e4b564;
+}
+.main-first-blocks-item4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column: 1 / span 3;
+
+  background: #635a4a;
+}
+.main-first-blocks-item5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column: 4 / span 3;
+
+  background: #b08c4d;
+}
+.main-second {
+  padding-bottom: 192px;
+}
+.main-second-title {
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 28px;
+  margin-bottom: 94px;
+}
+.main-second-blocks {
+  grid-template-columns: repeat(3, 469px);
+  grid-template-rows: 121px 121px 135px 135px 135px 135px;
+  grid-column-gap: 30px;
+  grid-row-gap: 26px;
+  display: grid;
+  text-align: start;
+  align-content: center;
+}
+.main-second-blocks-item1 {
+  padding: 44px 0px 0px 52px;
+  height: 313px;
+  grid-column: 1/2;
+  grid-row: 1 / span 2;
+  background: #0e0e0e;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.main-second-blocks-item2 {
+  padding: 44px 0px 0px 50px;
+
+  grid-column: 2/3;
+  grid-row: 1 / span 3;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  background: #242424;
+}
+.main-second-blocks-item3 {
+  padding: 44px 0px 0px 44px;
+
+  grid-row: 1 / span 2;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  background: #1f1f1f;
+}
+.main-second-blocks-item4 {
+  align-self: flex-end;
+  padding: 42px 0px 0px 52px;
+  height: 560px;
+  grid-row: 3 / span 4;
+  grid-column: 1/2;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  background: #1f1f1f;
+}
+.main-second-blocks-item5 {
+  padding: 47px 0px 0px 50px;
+  height: 405px;
+  margin-top: 20px;
+  grid-column: 2/3;
+  grid-row: 4 / span 3;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+  background: #e4b564;
+}
+.main-second-blocks-item6 {
+  padding: 32px 0px 0px 43px;
+
+  grid-row: 3 / span 2;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  background: #0e0e0e;
+}
+.main-second-blocks-item7 {
+  padding: 49px 0px 0px 42px;
+  grid-row: 5 / span 2;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  background: #0a0909;
+}
+.bg-black {
+  position: absolute;
+  width: 1920px;
+  height: 1078px;
+  left: -2px;
+  background: #0e0e0e;
+}
+.footer {
+  z-index: 2;
+}
+.footer-head {
+  z-index: 3;
+  padding-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 51px;
+}
+.footer-head-text {
+  z-index: 1;
+  color: #fff;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 28px;
+}
+.footer-head-button {
+  z-index: 1;
+  width: 180px;
+  height: 50px;
+
+  text-align: center;
+  border: 1px solid #e4b564;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 10px;
+  color: #e4b564;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 487px);
+  grid-template-rows: repeat(3, 391px);
+  color: #ffffff;
+  font-family: "Gilam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+  position: relative;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer-content-item1 {
+  padding-top: 168px;
+  background: #634f2c;
+}
+
+.footer-content-item2 {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 326px;
+  grid-template-rows: repeat(2, 55px);
+  grid-auto-rows: minmax(100px, 140px);
+
+  padding-top: 21px;
+  background: rgba(232, 210, 171, 0.76);
+}
+.footer-content-item2-imgFirst {
+  padding-top: 61px;
+  justify-self: center;
+}
+.footer-content-item2-imgSecond {
+  padding-top: 85px;
+  justify-self: center;
+}
+.footer-content-item2-text p:first-child {
+  font-weight: 600;
+  padding-top: 115px;
+  justify-self: center;
+}
+.footer-content-item2-text p:last-child {
+  padding: 0px 9%;
+  font-weight: 200;
+  justify-self: center;
+}
+.footer-content-item3 {
+  padding-top: 168px;
+  background: #e4b564;
+}
+.footer-content-item4 {
+  padding-top: 168px;
+  background: #635a4a;
+}
+.footer-content-item5 {
+  padding-top: 167px;
+  background: #b08c4d;
+}
+.footer-content-item5 img {
+  height: 52px;
+  width: 104px;
+}
+.footer-content-item6 {
+  padding-top: 168px;
+  background: #634f2c;
+}

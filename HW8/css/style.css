@@ -1,0 +1,149 @@
+@import url(/css/nullstyle.css);
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+.wrraper {
+  background-color: #3a4965;
+  width: 1192px;
+  height: 736px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arimo", sans-serif;
+  color: #484848;
+  margin: 0 auto;
+}
+.container {
+  transform: translateY(20px);
+  margin: 0 auto;
+  background: #fafafa;
+  width: 1143px;
+  height: 684px;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #dddddd;
+}
+.title {
+  width: 315px;
+  height: 159px;
+}
+.title p {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+}
+.title h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.price {
+  position: relative;
+}
+.cent {
+  position: absolute;
+  right: 110px;
+  top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.per_month {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.price h2 {
+  padding-left: 30px;
+  text-align: start;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 28px;
+}
+.service {
+  width: 284px;
+  height: 73px;
+}
+.service:nth-child(2) {
+  color: #ffffff;
+  background: #89c331;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.service:nth-child(3) {
+  background: #f04a56;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.service:nth-child(4) {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  background: #20807c;
+  color: #ffffff;
+}
+.prices {
+  width: 280px;
+  height: 89px;
+}
+.item {
+  height: 72px;
+}
+.item:nth-child(odd) {
+  background: #f2f2f2;
+}
+.item:nth-child(even) {
+  background: #e3e3e3;
+}
+.footer {
+  height: 90px;
+}
+.footer:nth-child(1) {
+  background: #484848;
+}
+.footer button {
+  border-radius: 5px;
+  width: 195px;
+  height: 54px;
+  background: #484848;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 10px #404040;
+}
+.footer td:nth-child(1) {
+  background: #dcdcdc;
+}
+.footer td:nth-child(2) {
+  background: #eeeeee;
+}
+.footer td:nth-child(4) {
+  background: #eeeeee;
+}
+.footer td:nth-child(2) button {
+  box-shadow: 0px 10px #79b027;
+  background: #89c331;
+}
+.footer td:nth-child(3) button {
+  box-shadow: 0px 10px #df3a46;
+  background: #f04a56;
+}
+.footer td:nth-child(4) button {
+  box-shadow: 0px 10px #16736f;
+  background: #20807c;
+}
